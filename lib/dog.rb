@@ -8,11 +8,8 @@ class Dog
     this_dogs_name       #this method exposes data #from inside to the outside world.
   end 
   
-
-end
-
 lassie = Dog.new
 lassie.name = "Lassie"
+end
 
-lassie.name
 
