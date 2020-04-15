@@ -5,7 +5,7 @@ class Dog
   end
   
   def name 
-    this_dogs_name       #this method exposes data #from inside to the outside world.
+    @this_dogs_name       #this method exposes data #from inside to the outside world.
   end 
   
 lassie = Dog.new
